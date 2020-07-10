@@ -24,7 +24,7 @@ var availableCity = [
         country: "France",
         current: Weather(weather: "sun", temperature: 33),
         previsions: [
-            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "rain", temperature: 25)),
+            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "sun", temperature: 25)),
             Prevision(date: getDateFormatter().date(from: "2020-07-12")!, weather: Weather(weather: "rain", temperature: 28)),
             Prevision(date: getDateFormatter().date(from: "2020-07-13")!, weather: Weather(weather: "sun", temperature: 32))
         ]
@@ -32,41 +32,41 @@ var availableCity = [
     City(
         name: "Bali",
         country: "Indonesia",
-        current: Weather(weather: "sun", temperature: 33),
+        current: Weather(weather: "sun", temperature: 25),
         previsions: [
-            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "rain", temperature: 25)),
-            Prevision(date: getDateFormatter().date(from: "2020-07-12")!, weather: Weather(weather: "rain", temperature: 28)),
-            Prevision(date: getDateFormatter().date(from: "2020-07-13")!, weather: Weather(weather: "sun", temperature: 32))
+            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "sun", temperature: 25)),
+            Prevision(date: getDateFormatter().date(from: "2020-07-12")!, weather: Weather(weather: "sun", temperature: 26)),
+            Prevision(date: getDateFormatter().date(from: "2020-07-13")!, weather: Weather(weather: "rain", temperature: 24))
         ]
     ),
     City(
         name: "New York",
         country: "United States",
-        current: Weather(weather: "sun", temperature: 33),
+        current: Weather(weather: "rain", temperature: 12),
         previsions: [
-            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "rain", temperature: 25)),
-            Prevision(date: getDateFormatter().date(from: "2020-07-12")!, weather: Weather(weather: "rain", temperature: 28)),
-            Prevision(date: getDateFormatter().date(from: "2020-07-13")!, weather: Weather(weather: "sun", temperature: 32))
+            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "sun", temperature: 15)),
+            Prevision(date: getDateFormatter().date(from: "2020-07-12")!, weather: Weather(weather: "rain", temperature: 13)),
+            Prevision(date: getDateFormatter().date(from: "2020-07-13")!, weather: Weather(weather: "sun", temperature: 11))
         ]
     ),
     City(
         name: "Sao Paulo",
         country: "Brazil",
-        current: Weather(weather: "sun", temperature: 33),
+        current: Weather(weather: "sun", temperature: 41),
         previsions: [
-            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "rain", temperature: 25)),
-            Prevision(date: getDateFormatter().date(from: "2020-07-12")!, weather: Weather(weather: "rain", temperature: 28)),
-            Prevision(date: getDateFormatter().date(from: "2020-07-13")!, weather: Weather(weather: "sun", temperature: 32))
+            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "sun", temperature: 38)),
+            Prevision(date: getDateFormatter().date(from: "2020-07-12")!, weather: Weather(weather: "sun", temperature: 37)),
+            Prevision(date: getDateFormatter().date(from: "2020-07-13")!, weather: Weather(weather: "sun", temperature: 40))
         ]
     ),
     City(
         name: "Paris",
         country: "France",
-        current: Weather(weather: "sun", temperature: 33),
+        current: Weather(weather: "rain", temperature: 15),
         previsions: [
-            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "rain", temperature: 25)),
-            Prevision(date: getDateFormatter().date(from: "2020-07-12")!, weather: Weather(weather: "rain", temperature: 28)),
-            Prevision(date: getDateFormatter().date(from: "2020-07-13")!, weather: Weather(weather: "sun", temperature: 32))
+            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "rain", temperature: 17)),
+            Prevision(date: getDateFormatter().date(from: "2020-07-12")!, weather: Weather(weather: "sun", temperature: 20)),
+            Prevision(date: getDateFormatter().date(from: "2020-07-13")!, weather: Weather(weather: "sun", temperature: 22))
         ]
     ),
     City(
@@ -74,9 +74,9 @@ var availableCity = [
         country: "France",
         current: Weather(weather: "rain", temperature: 12),
         previsions: [
-            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "sun", temperature: 25)),
-            Prevision(date: getDateFormatter().date(from: "2020-07-12")!, weather: Weather(weather: "sun", temperature: 24)),
-            Prevision(date: getDateFormatter().date(from: "2020-07-13")!, weather: Weather(weather: "rain", temperature: 19))
+            Prevision(date: getDateFormatter().date(from: "2020-07-11")!, weather: Weather(weather: "rain", temperature: 15)),
+            Prevision(date: getDateFormatter().date(from: "2020-07-12")!, weather: Weather(weather: "rain", temperature: 13)),
+            Prevision(date: getDateFormatter().date(from: "2020-07-13")!, weather: Weather(weather: "rain", temperature: 14))
         ]
     )
 ]

@@ -26,7 +26,7 @@ struct CityWeather: View {
                         .font(.system(size: 30))
                         .frame(maxWidth: .infinity, alignment: .center)
                     
-                    Text(city.current.weather)
+                    Text(NSLocalizedString(city.current.weather, comment: "Weather"))
                     .frame(maxWidth: .infinity, alignment: .center)
                         
                     
